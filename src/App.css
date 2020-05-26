@@ -1,0 +1,171 @@
+.btn-sel {
+    background-color: white;
+}
+.conditions-new {
+    height: 100vh;
+    overflow: auto;
+    background-color: #f8f9fb !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.conditions-new-1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fb !important;
+}
+
+.btnCondList {
+    /* text-align: left !important;
+    color: #1fc5f7; */
+    padding: 5px 0 5px 0px;    
+}
+
+.condition-list {
+    background-color: white;
+    padding: 2px;
+}
+
+.right-side-plus {
+    text-align: right !important;
+}
+
+button.btnToggleAndOr {
+    width: 100px;
+    height: 25px;
+    position: relative;
+    padding: inherit;
+    color: #17a2b8;
+    background-color: white;
+    margin-top: 8px;
+}
+
+.divToggleAndOr {
+    height: 40px;
+}
+
+  .Ifclass{
+    width: 20px;
+      height: 20px;
+      display: inline-block;
+      background-color:#d78a65;
+      border-radius: 4px;
+      transform: rotateY(0deg) rotate(45deg); /* needs Y at 0 deg to behave properly*/
+      transition: transform 2s;
+  }
+
+  .TextAlign{
+    float: right;
+    padding-right: 5px;
+  }
+
+.Hide{
+    display:none;
+  }
+  .Show{
+    display: block;
+  }
+
+  .FullClass{
+    margin:0px;
+  }
+  
+  .Center{
+    padding:0px;
+    border: 2px solid lightgray;
+    border-bottom: 0px;
+    box-shadow: 0px 1px 8px #888888;/*etxra */
+  }
+  .Active{
+    background-color: grey;
+  }
+  .Header{
+    border: 1px solid lightgray;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .Nodata{
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    padding:189px 0px 0px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .BtnWidht{
+   background-color: white;
+   color:#17a2b8;
+   width: 139px;
+   height:30px;
+   text-align:center;
+   border-radius: 5px;
+   box-shadow: 0px 1px 8px #888888;
+   padding-top: 2px;
+  }
+ 
+  .Icon { 
+    padding: 10px 2px 0px; 
+  } 
+  
+  .borderMainbox{
+    border:1px solid #17a2b8 ;
+    margin: 0px -17px 0px -17px;
+  }
+  .borderbox{
+    border-bottom:1px solid orange ;
+  }
+  
+  .mobilesmcenter{
+    padding:0px;
+  }
+  .left-plus-icon{
+    padding-right: 1px !important;
+  }
+  .right-plus-icon {
+    text-align: right !important;
+  }
+  .bgcolor{
+    background-color: lightgray;
+  }
+  .Newcondition{
+    padding:5px 0px 5px 15px;
+    font-size: bold;
+    display:block;
+  }
+  .paddingLeft{
+    padding:16px 0px 3px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+  }
+  .transform{
+    padding:0px 0px 3px 10px;
+    display: block;
+  }
+  
+  .box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+  }
+  .box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 1px;
+    top: -2px; 
+    text-align: right;
+    color:white;
+    width: 50%; 
+  }
+  
