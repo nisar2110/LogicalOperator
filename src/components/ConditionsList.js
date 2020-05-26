@@ -17,6 +17,7 @@ export default class ConditionsList extends React.Component {
             case 'plusClick':
                 ConditionChange[index].showIconDiv = !ConditionChange[index].showIconDiv;
                 break;
+            case 'rightClickPlus':
             case 'rightClickAction':
                 ConditionChange[index].rightIcon = !ConditionChange[index].rightIcon;
                 ConditionChange[index].rightIconValue = 'plus';
